@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css">
+    <title>PersonalPortfolio</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav container flex">
+            <a href="#" class="nav__logo">Ilya</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list flex">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><i class='bx bx-moon change-theme' id="theme-button"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section">
+            <div class="home__container container flex">
+                <div class="flex">
+                    <div class="home__social">
+                        <a href="#" class="home__social-icon">
+                            <img src="img/vk.svg" alt="img">
+                        </a>
+                        <a href="#" class="home__social-icon">
+                            <img src="img/youtube.svg" alt="img">
+                        </a>
+                        <a href="#" class="home__social-icon">
+                            <img src="img/twitter.svg" alt="img">
+                        </a>
+                    </div>
+                    <div class="home__data">
+                        
+                        <h1 class="home__title">Hi, I'am Ilya</h1>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna<br> aliqua.</p>
+                    </div>
+                </div>
+                
+                <div class="home__img">
+                    <img src="img/unsplash_aeNg4YA41P8.png" alt="img">
+                </div>
+                
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container container flex">
+                <img src="img/about.png" alt="img" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua .Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et.
+                    </p>
+                    <div class="about__button">
+                        <button class="button">Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills__container container flex2">
+                <!--                             skills 1                         -->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <img src="img/brackets-curly.svg" alt="img" class="skills__icon">
+                        <div>
+                            <h1 class="skills__title">Frontend developer</h1>
+                        </div>
+                        <i class='bx bx-up-arrow-alt skills__arrow'></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                             skills 2                         -->
+                <div class="skills__content skills_close">
+                    <div class="skills__header">
+                        <img src="img/paper-plane.svg" alt="img" class="skills__icon">
+                        <div>
+                            <h1 class="skills__title">Designer</h1>
+                        </div>
+                        <i class='bx bx-up-arrow-alt skills__arrow skills__arrow2'></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Figma</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__figma"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Sketch</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__sketch"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Phootoshop</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__photoshop"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact</h2>
+
+            <div class="contact__container container flex3">
+                <div class="flex__plus">
+                    <div class="contact__information">
+                        <i class='bx bx-phone contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">8-800-55-69-69</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class='bx bx-envelope contact__icon'></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">Putin@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs flex">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="Email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex">
+                            Send Message
+                            <i class='bx bx-paper-plane button__icon'></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container flex">
+                <div>
+                    <h1 class="footer__title">Ilya</h1>
+                    <span class="footer__subtitle">Frontend deleloper</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="#" class="footer__social">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+
+                    <a href="#" class="footer__social">
+                        <i class='bx bxl-youtube' ></i>
+                    </a>
+
+                    <a href="#" class="footer__social">
+                        <i class='bx bxl-facebook-square' ></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer___copy">&#169; 2021 ООО «Lorem.loremovich»</p>
+        </div>
+    </footer>
+
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
